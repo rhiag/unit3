@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/rhia/.local/share/virtualenvs/Sprint_Challenge-_YqppItn/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleEnabled": true
+    
+}
