@@ -23,7 +23,7 @@ from query import SELECT_CHARACTERS, TOTAL_CHARACTERS,TOTAL_SUBCLASS,TOTAL_ITEMS
 # print(results)
 
 # Write this in a function
-def connect_to_db(db_name="./data/rpg_db.sqlite3"):
+def connect_to_db(db_name="../data/rpg_db.sqlite3"):
     return sqlite3.connect(db_name)
 
 def execute_query(conn,query):

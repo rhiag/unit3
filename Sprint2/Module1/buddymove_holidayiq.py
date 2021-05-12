@@ -7,7 +7,7 @@ df = pd.read_csv(url)
 print(df.shape)
 
 # Step1 :  Connect to Database
-conn = sqlite3.connect("./data/buddymove_holidayiq.sqlite3")
+conn = sqlite3.connect("../data/buddymove_holidayiq.sqlite3")
 curs = conn.cursor()
 
 #Step2: Create database
