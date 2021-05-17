@@ -49,7 +49,7 @@ def handle_characters(curs, collection):
             "dexterity": character[7],
             "wisdom": character[8],
             "item": list(item_list),
-             "weapon": character[9]  
+             #"weapon": character[9]  
         }
         character_docs.append(character_doc)    
     collection.insert_many(character_docs)
