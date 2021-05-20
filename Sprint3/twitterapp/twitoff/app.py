@@ -1,6 +1,6 @@
 """Main app/routing file for Twitoff"""
 from os import getenv
-from app.predict import predict_user
+from twitoff.predict import predict_user
 from flask import Flask, render_template, request
 from .models import DB, User
 from .twitter import add_or_update_user
